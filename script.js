@@ -58,7 +58,7 @@
     experienceTitle: "Explaining, organising, taking responsibility.",
     badgeNow: "Current",
     job1Title: "Student Tutor",
-    job1Text: "Leading weekly exercise sessions in English for the course “DAS”: opening quiz, problem sets, moderating student presentations and explaining solutions. Completed the TUHH tutor training, including a teaching simulation.",
+    job1Text: "Leading weekly exercise sessions in English for the course “Discrete Algebraic Structures” (DAS): opening quiz, problem sets, moderating student presentations and explaining solutions. Completed the TUHH tutor training, including a teaching simulation.",
     job2Title: "Front Office Manager Assistant &amp; Receptionist",
     job2Text: "Daily contact with international guests, shift work, cash systems and payment reconciliation. Promoted to Front Office Manager Assistant after 7&nbsp;months.",
     job3Title: "Service Staff (service &amp; logistics)",
