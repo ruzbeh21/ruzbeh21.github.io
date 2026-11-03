@@ -96,11 +96,16 @@ img { display: block; max-width: 100%; height: auto; }
   border-bottom: 1px solid var(--border);
 }
 .header-inner { display: flex; align-items: center; gap: 16px; height: 52px; }
+/* Logo: 32px tile so every 2px pixel of the RN mark lands on whole device pixels */
 .brand {
-  display: grid; place-items: center; width: 34px; height: 34px;
+  --brand-accent: var(--teal);
+  display: block; flex: none; width: 32px; height: 32px;
   background: var(--ink); color: var(--white);
-  border-radius: 9px; font-weight: 800; font-size: .8rem; letter-spacing: .04em; text-decoration: none;
+  border-radius: 7px; text-decoration: none;
 }
+.brand-mark { display: block; width: 32px; height: 32px; }
+.brand-accent { fill: var(--brand-accent); }
+.brand:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 nav { margin-left: auto; }
 .nav-list { display: none; list-style: none; margin: 0; padding: 0; gap: 28px; }
 .nav-list a { color: var(--text); text-decoration: none; font-size: .85rem; }
@@ -118,6 +123,7 @@ nav + .lang-switch { margin-left: 0; }
 
 @media (prefers-color-scheme: dark) {
   .brand, .lang-switch button[aria-pressed="true"] { background: var(--teal); color: var(--ink); }
+  .brand { --brand-accent: var(--white); }
 }
 
 /* ---------- Hero ---------- */
